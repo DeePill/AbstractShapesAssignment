@@ -14,4 +14,8 @@ public class Quadrilateral extends Shape{
     }
 
 
+    @Override
+    protected double GetSideLength() {
+        return 0;
+    }
 }
